@@ -7,7 +7,7 @@ website:
   navbar:
     pinned: true
     left:
-      - href: Assignment_5.qmd
+      - href: report.qmd
         text: Report
       - href: presentation.qmd
         text: Presentation

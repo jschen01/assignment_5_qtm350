@@ -1,0 +1,11 @@
+---
+title: "QTM_350_Quiz_2_Website"
+format: html
+---
+
+## Website Pages
+
+- [Report](report.qmd)  
+- [Presentation](presentation.qmd)   
+
+To learn more about Quarto websites, visit <https://quarto.org/docs/websites>.
