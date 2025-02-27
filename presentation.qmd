@@ -1,0 +1,44 @@
+---
+title: "World Development Indicators (2022)"
+author: "Joyce Chen"
+format:
+  revealjs:
+    self-contained: true
+transition: slide
+transition-speed: default
+---
+
+## Introduction
+- Overview of World Development Indicators  
+- Focus on 2022 data  
+
+## Key Indicators
+- **GDP per Capita**  
+- **Inflation Rate**  
+- **Unemployment Rate**  
+
+## GDP Per Capita Distribution
+::: {.columns}
+::: {.column width="50%"}
+- Shows economic disparity
+  - As the GDP per capita increases the frequency decreases.  
+:::
+::: {.column width="50%"}
+
+![Figure 1](docs/Assignment_5_files/images/cell-5-output-1.png)
+:::
+:::
+
+## Inflation vs Unemployment
+- Relationship between inflation and employment levels  
+- Economic policy implications
+  - As the inflation percentage rate increases, the unemployment rate becomes less concentrated.  
+
+![Figure 2](docs/Assignment_5_files/images/cell-6-output-1.png)
+
+## Conclusion
+- Insights from analysis  
+  - There seems to be a negative correlation between GDP per capita and the frequency.
+
+# Thank You for Viewing My Presentation! 😊
+
