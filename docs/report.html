@@ -202,7 +202,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="quarto" class="level2">
 <h2 class="anchored" data-anchor-id="quarto">Quarto</h2>
 <p>Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <a href="https://quarto.org" class="uri">https://quarto.org</a>.</p>
-<div id="f5910617" class="cell" data-execution_count="1">
+<div id="126a8101" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Install the necessary libraries</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># pip install pandas</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># !pip install wbgapi</span></span>
@@ -214,7 +214,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="task-2" class="level2">
 <h2 class="anchored" data-anchor-id="task-2">Task 2</h2>
-<div id="02634276" class="cell" data-execution_count="2">
+<div id="326d3bc1" class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Define the indicators to download</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>indicators <span class="op">=</span> {</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">'gdp_per_capita'</span>: <span class="st">'NY.GDP.PCAP.CD'</span>,</span>
@@ -290,7 +290,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="task-3" class="level2">
 <h2 class="anchored" data-anchor-id="task-3">Task 3</h2>
-<div id="ec0c0c6c" class="cell" data-execution_count="3">
+<div id="63b63b1c" class="cell" data-execution_count="3">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Select relevant indicators</span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>selected_indicators <span class="op">=</span> [<span class="st">"gdp_per_capita"</span>, <span class="st">"inflation_rate"</span>, <span class="st">"unemployment_rate"</span>]</span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>df[selected_indicators].describe()</span>
@@ -309,7 +309,7 @@ dtype: int64</code></pre>
 <h2 class="anchored" data-anchor-id="task-4">Task 4</h2>
 <section id="gdp-per-capita-distribution-histogram" class="level3">
 <h3 class="anchored" data-anchor-id="gdp-per-capita-distribution-histogram">GDP per Capita Distribution (Histogram)</h3>
-<div id="60e6fa06" class="cell" data-execution_count="4">
+<div id="b5414f24" class="cell" data-execution_count="4">
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -330,7 +330,7 @@ dtype: int64</code></pre>
 </section>
 <section id="scatter-plot-inflation-rate-vs-unemployment-rate" class="level3">
 <h3 class="anchored" data-anchor-id="scatter-plot-inflation-rate-vs-unemployment-rate">Scatter Plot: Inflation Rate vs Unemployment Rate</h3>
-<div id="44506829" class="cell" data-execution_count="5">
+<div id="dcddc5f9" class="cell" data-execution_count="5">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">5</span>))</span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>sns.scatterplot(x<span class="op">=</span>df[<span class="st">"inflation_rate"</span>], y<span class="op">=</span>df[<span class="st">"unemployment_rate"</span>])</span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"Inflation Rate (%)"</span>)</span>
@@ -349,7 +349,7 @@ dtype: int64</code></pre>
 </section>
 <section id="task-5" class="level2">
 <h2 class="anchored" data-anchor-id="task-5">Task 5</h2>
-<div id="2e270a25" class="cell" data-execution_count="6">
+<div id="7a103fe4" class="cell" data-execution_count="6">
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>summary_table <span class="op">=</span> df[selected_indicators].describe().T</span>
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>summary_table</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="6">
