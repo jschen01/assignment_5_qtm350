@@ -1,6 +1,6 @@
 project:
   type: website
-  title: "Assignment_5"
+  output-dir: docs
 
 website:
   title: "QTM_350_Assignment_5"
